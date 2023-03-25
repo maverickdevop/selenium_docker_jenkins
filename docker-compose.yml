@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  test_runner:
+    build: .
+    image: selenium_pom
+    container_name: selenium_pom
