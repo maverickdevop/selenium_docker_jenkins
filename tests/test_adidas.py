@@ -28,5 +28,6 @@ class TestSemanticsTopvisor(unittest.TestCase):
         self.driver.delete_all_cookies()
         self.driver.quit()
 
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,132 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyAssignmentToLoopOrWithParameterInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDeprecationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyGlobalUndefinedInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodParametersInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="45">
+            <item index="0" class="java.lang.String" itemvalue="HtmlTestRunner" />
+            <item index="1" class="java.lang.String" itemvalue="trio-websocket" />
+            <item index="2" class="java.lang.String" itemvalue="pluggy" />
+            <item index="3" class="java.lang.String" itemvalue="cffi" />
+            <item index="4" class="java.lang.String" itemvalue="h11" />
+            <item index="5" class="java.lang.String" itemvalue="py" />
+            <item index="6" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="7" class="java.lang.String" itemvalue="pycparser" />
+            <item index="8" class="java.lang.String" itemvalue="requests" />
+            <item index="9" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="10" class="java.lang.String" itemvalue="sniffio" />
+            <item index="11" class="java.lang.String" itemvalue="trio" />
+            <item index="12" class="java.lang.String" itemvalue="selenium" />
+            <item index="13" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="14" class="java.lang.String" itemvalue="certifi" />
+            <item index="15" class="java.lang.String" itemvalue="urllib3" />
+            <item index="16" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="17" class="java.lang.String" itemvalue="outcome" />
+            <item index="18" class="java.lang.String" itemvalue="pytest" />
+            <item index="19" class="java.lang.String" itemvalue="cryptography" />
+            <item index="20" class="java.lang.String" itemvalue="packaging" />
+            <item index="21" class="java.lang.String" itemvalue="wsproto" />
+            <item index="22" class="java.lang.String" itemvalue="attrs" />
+            <item index="23" class="java.lang.String" itemvalue="sortedcontainers" />
+            <item index="24" class="java.lang.String" itemvalue="PySocks" />
+            <item index="25" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="26" class="java.lang.String" itemvalue="allure-python-commons" />
+            <item index="27" class="java.lang.String" itemvalue="async-generator" />
+            <item index="28" class="java.lang.String" itemvalue="idna" />
+            <item index="29" class="java.lang.String" itemvalue="pip" />
+            <item index="30" class="java.lang.String" itemvalue="coverage" />
+            <item index="31" class="java.lang.String" itemvalue="pytest-metadata" />
+            <item index="32" class="java.lang.String" itemvalue="decorator" />
+            <item index="33" class="java.lang.String" itemvalue="wheel" />
+            <item index="34" class="java.lang.String" itemvalue="ipython" />
+            <item index="35" class="java.lang.String" itemvalue="setuptools" />
+            <item index="36" class="java.lang.String" itemvalue="pexpect" />
+            <item index="37" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="38" class="java.lang.String" itemvalue="testproject-python-sdk" />
+            <item index="39" class="java.lang.String" itemvalue="pytest-email" />
+            <item index="40" class="java.lang.String" itemvalue="pytest_check" />
+            <item index="41" class="java.lang.String" itemvalue="docutils" />
+            <item index="42" class="java.lang.String" itemvalue="pytest-html" />
+            <item index="43" class="java.lang.String" itemvalue="Appium-Python-Client" />
+            <item index="44" class="java.lang.String" itemvalue="numpy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+          <option value="W605" />
+          <option value="W292" />
+          <option value="E302" />
+          <option value="E711" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+          <option value="type" />
+          <option value="all" />
+          <option value="list" />
+          <option value="help" />
+          <option value="object" />
+          <option value="id" />
+          <option value="property" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.get_attribute" />
+          <option value="selenium.webdriver.chrome.webdriver.Chrome" />
+          <option value="str.__floordiv__" />
+          <option value="SEOWORK.test_Login.response.status_code" />
+          <option value="SEOWORK.test_Login.response.text" />
+          <option value="int.replace" />
+          <option value="list.strftime" />
+          <option value="int.round" />
+          <option value="int.get_attribute" />
+          <option value="Snapshot.Category.test_CategorySnapshot.*" />
+          <option value="list.rstrip" />
+          <option value="requests.cookies.RequestCookieJar" />
+          <option value="requests.cookies.RequestsCookieJar" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
