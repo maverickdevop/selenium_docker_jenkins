@@ -10,4 +10,4 @@ RUN pip3 install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Запуск тестов
-CMD python3 -m pytest -sv /tests/*
+CMD python3 -m pytest -sv test_adidas.py
