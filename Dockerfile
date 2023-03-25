@@ -1,11 +1,13 @@
-FROM python:3.9-slim-buster
+FROM python
+WORKDIR .
 
 # Копирование кода в контейнер
-WORKDIR /app
 COPY . .
+COPY requirements.txt .
 
 # Установка зависимостей Python
+RUN pip3 install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Запуск тестов
-CMD python3 -m pytest -sv tests/*
+CMD python3 -m pytest -sv /tests/*
