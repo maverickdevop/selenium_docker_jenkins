@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Run tests') {
             steps {
-                sh 'python3 -m pytest -sv test_adidas.py'
+                sh 'python3 -m pytest -sv tests/test_adidas.py'
             }
         }
     }
