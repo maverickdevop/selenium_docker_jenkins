@@ -1,16 +1,16 @@
 import time
 import unittest
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 
 
 class TestSemanticsTopvisor(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        service = Service(executable_path="chromedriver")
+        self.driver = webdriver.Chrome(service=service)
 
         # Driver setup
         self.driver.maximize_window()
